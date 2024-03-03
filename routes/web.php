@@ -16,3 +16,31 @@ use Illuminate\Support\Facades\Route;
 Route::get('/home', function(){
     return view('home');
 });
+
+Route::get('/category', function(){
+    return view('category');
+});
+
+Route::get('/user', function (){
+    return view('user', ['id' => '01', 'name' => 'Nizar Khawarizmi']);
+});
+
+Route::get('/transaction', function(){
+    return view('transaction');
+});
+
+Route::get('/FB', function(){
+    return view('FB');
+});
+
+Route::get('/BH', function(){
+    return view('BH');
+});
+
+Route::get('/HC', function(){
+    return view('HC');
+});
+
+Route::get('/BK', function(){
+    return view('BK');
+});
