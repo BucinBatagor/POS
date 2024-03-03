@@ -8,11 +8,11 @@
 </head>
 <body>
     <h1>Home</h1>
-    <h2>Selamat Datang di Aplikasi Point of Sales</h2>
+    <h2>Welcome to Point of Sales Application</h2>
     <ul>
-        <li><a href="/category">Daftar Produk</a></li>
-        <li><a href="/user{id}/name/{name}">Profil</a></li>
-        <li><a href="/sales">Riwayat Transaksi</a></li>
+        <li><a href="http://localhost/POS/public/category">Category Product</a></li>
+        <li><a href="http://localhost/POS/public/user">Profil User</a></li>
+        <li><a href="http://localhost/POS/public/transaction">Transaction History</a></li>
     </ul>
 </body>
 </html>
